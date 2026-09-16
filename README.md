@@ -1,8 +1,14 @@
-# Smart-Residential-Mess-Monitor
+# Project title
+Smart-Mess-Residential-Monitor
+
+
+# Overview of the Project
 College hostels and university dining halls face a big guessing game every day when making food. Because they do not know exactly how many students will show up for breakfast, lunch, or dinner, they experience two major problems at the same time: massive food waste and food shortages.
-# Project Blueprint
+
 This complete implementation and documentation package fulfills all requirements from the guidelines: the 3 required modules, 4 non-functional requirements, 5 structured classes, custom exceptions and unit tests.
-# Problem Statement
+# Features
+
+
 ❖ Massive Food Waste: Inflexible meal prep quotas 
 cause 20–35% excess food disposal daily. 
 ❖ Manual Record Errors: Physical register logbooks 
@@ -11,7 +17,7 @@ sluggish queue throughput during peak hours.
 ❖ Lack of Real-Time Feedback: Wardens and caterers 
 receive no real-time telemetry on leftover inventory, 
 menu popularity, or mess hygiene/stock conditions.
-# functional Requirements 
+
 User Authentication & profiles:
 Role-based 
 access for Students, Mess Managers, Kitchen Staff and Admins.
@@ -23,10 +29,11 @@ Reliability & Availability: System uptime >= 99.5%
 during scheduled dining windows (Breakfast, Lunch, 
 Dinner).
 
-# System Architecture
+# Technologies/tools used
+
 The system adopts a modern Three-Tier Architecture: 
 ● Presentation Tier: Responsive Web & Mobile 
-frontend built with React.js or Flutter. 
+frontend built with jdk. 
 ● Application Tier: RESTful API backend using 
 Imanaging business logic, notification triggers, and edge 
 communication. 
@@ -37,7 +44,7 @@ sensor logs.
 connected to an RC522 RFID reader and an HX711 
 Load Cell amplifier for waste bins, publishing logs via 
 MQTT/HTTPS.
-# Design Diagram
+# Step to install & run the project
 
 Mark Meal Attendance, Skip Meal, Log Waste Weight, 
 Publish Menu, Review Analytics, View Monthly Bill.
@@ -49,12 +56,8 @@ menu_description.
 (Opted-in/Opted-out/Attended), timestamp. 
 ● WasteLogs: log_id , meal_id , waste_weight_kg, recorded_at
 
-# Testing Approach
-The testing strategy uses automated unit tests written in pure Java. A 
-dedicated test driver class  executes test cases against the core methods 
-of the mess system, checking outputs against expected conditions and 
-printing clear PASS/FAIL results to the console. 
-# Main Program
+
+
 this program shows that how code is implemented in residential technique;
 
 import exceptionChecker.cutOffSuccessException;
@@ -129,7 +132,18 @@ public class applicableFunction {
                 wasteService.getTotalWastedWeight(), wasteService.getTotalFinancialLoss());
     }
 }
-# output and result 
+
+
+# instruction for testing
+
+The testing strategy uses automated unit tests written in pure Java. A 
+dedicated test driver class  executes test cases against the core methods 
+of the mess system, checking outputs against expected conditions and 
+printing clear PASS/FAIL results to the console. 
+
+
+
+# Screenshots(display the program and result)
 "Implements views that track student meal choices while recording food waste."
 <img width="1919" height="1020" alt="Screenshot 2026-09-12 205852" src="https://github.com/user-attachments/assets/2453b00a-4978-48ae-b585-54956dc799ad" />
 
