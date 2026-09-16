@@ -9,13 +9,13 @@ The Smart Mess Residential Monitor is a Java-based desktop/backend application d
 * The current scope focuses on core business logic, object-oriented data models, file I/O or database persistence, and console/GUI reporting within a local hostel network environment.
 
 # Target Usrs
-Hostel Residents / Students:** To view daily menus, check into meals, log dietary preferences, and submit feedback.
-Mess Contractors & Kitchen Staff:** To access real-time meal counts, monitor grocery consumption, and reduce food waste.
-Hostel Wardens & Mess Committee Members:** To track attendance trends, oversee billing/rations, and resolve quality complaints.
+Hostel Residents / Students: To view daily menus, check into meals, log dietary preferences, and submit feedback.
+Mess Contractors & Kitchen Staff: To access real-time meal counts, monitor grocery consumption, and reduce food waste.
+Hostel Wardens & Mess Committee Members: To track attendance trends, oversee billing/rations, and resolve quality complaints.
 
-## High-Level Features
-Resident Profile & Meal Management:** CRUD operations for resident records, meal plan subscriptions, and dietary preferences.
-Smart Session Check-in System:** Fast meal validation (Breakfast, Lunch, Snacks, Dinner) preventing duplicate entries per session.
-Inventory & Consumption Forecaster:** Basic algorithmic estimation of ingredients needed based on past attendance trends.
-Mess Feedback & Grievance Module:** Categorized feedback collection (hygiene, taste, portion) with status tracking.
-Administrative Analytics & Reporting:** Automated generation of daily attendance, wastage summaries, and billing export reports.
+# High-Level Features
+Resident Profile & Meal Management: CRUD operations for resident records, meal plan subscriptions, and dietary preferences.
+Smart Session Check-in System: Fast meal validation (Breakfast, Lunch, Snacks, Dinner) preventing duplicate entries per session.
+Inventory & Consumption Forecaster: Basic algorithmic estimation of ingredients needed based on past attendance trends.
+Mess Feedback & Grievance Module: Categorized feedback collection (hygiene, taste, portion) with status tracking.
+Administrative Analytics & Reporting: Automated generation of daily attendance, wastage summaries, and billing export reports.
